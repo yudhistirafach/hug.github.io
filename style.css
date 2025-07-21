@@ -1,0 +1,51 @@
+ html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+ }
+ 
+ body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: background-color 1s ease;
+      font-family: sans-serif;
+    }
+
+    .container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    #button-hug {
+      padding: 12px 24px;
+      font-size: 1.2em;
+      background-color: #ff8c8c;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-bottom: 20px;
+      margin: auto;
+    }
+
+    #subtitle {
+        display: none;
+        text-align: center;
+        transition: 3s ease;
+    }
+
+    #title {
+        transition: 3s ease;
+    }
+
+    #gifImage {
+      display: none;
+      width: 300px;
+      margin: auto;
+    }
